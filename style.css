@@ -1,0 +1,53 @@
+body {
+	
+}
+
+#main-container{
+	display:grid;
+	width:100%;
+	min-height:800px;
+
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	background-color: white;
+}
+#middle-column{
+
+	grid-column:2/4;
+	align-self: center;
+}
+
+#logo-area{
+	margin:auto;
+	width:60%;
+	margin-bottom:30px;
+}
+#logo{
+	width:100%;
+}
+#search-bar{
+
+}
+#search{
+	width:100%;
+	border-radius:15px;
+	height: 30px;
+	margin-bottom:30px;
+}
+
+#search:hover{
+	
+}
+
+#buttons-area{
+	margin:auto;
+	width:60%;
+}
+
+#button1{
+	float:left;
+}
+
+#button2{
+	float:right;
+}
